@@ -1,39 +1,58 @@
 {
   "version": 2.0,
   "questions": [
-    {
-      "question": "This is a Sample Question 1?",
-      "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
-      },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
-      },
-      "correctAnswer": "a",
-      "difficulty": "beginner"
-    },
-    {
-      "question": "This is a Sample Question 2?",
-      "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
-      },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
-      },
-      "correctAnswer": "c",
-      "difficulty": "beginner"
-    }
+	{
+	"question":"Frequency range of delta wave is ………:",
+	"answers":{
+	"a":"0.5-4Hz",
+	"b":"4-8Hz",
+	"c":"8-13Hz",
+	"d":"13–22Hz"
+	},
+	"correctAnswer":"a",
+	"difficulty": "intermediate"
+	},
+	{
+	"question":"Frequency range of theta wave is ………:",
+	"answers":{
+	"a":"0.5-4Hz",
+	"b":"4-8Hz",
+	"c":"8-13Hz",
+	"d":"13–22Hz"
+	},
+	"correctAnswer":"b"
+	},
+	{
+	"question":"Frequency range of alpha wave is ………:",
+	"answers":{
+	"a":"0.5-4Hz",
+	"b":"4-8Hz",
+	"c":"8-13Hz",
+	"d":"13–22Hz"
+	},
+	"correctAnswer":"c",
+	"difficulty": "intermediate"
+	},
+	{
+	"question":"Frequency range of beta wave is ………:",
+	"answers":{
+	"a":"0.5-4Hz",
+	"b":"4-8Hz",
+	"c":"8-13Hz",
+	"d":"13–22Hz"
+	},
+	"correctAnswer":"d",
+	"difficulty": "intermediate"
+	},
+	{
+	"question":"When people are attentive to an external stimulus or are thinking hard about something, the alpha rhythm is replaced by:",
+	"answers":{
+	"a":"Delta",
+	"b":"Theta",
+	"c":"Alpha",
+	"d":"Beta"
+	},
+	"correctAnswer":"d"
+	}
   ]
 }
