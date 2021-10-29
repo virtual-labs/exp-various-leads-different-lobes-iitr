@@ -1,39 +1,60 @@
 {
   "version": 2.0,
-  "questions": [
-    {
-      "question": "This is a Sample Question 1?",
-      "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
-      },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
-      },
-      "correctAnswer": "a",
-      "difficulty": "beginner"
-    },
-    {
-      "question": "This is a Sample Question 2?",
-      "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
-      },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
-      },
-      "correctAnswer": "c",
-      "difficulty": "beginner"
-    }
+  "questions":[
+		{
+		"question":"Electroencephalogram (EEG) rhythm was first recorded by:",
+		"answers":{
+		"a":"William Einthovan",
+		"b":"Egas Moniz",
+		"c":"Hans Berger",
+		"d":"Gaillard L"
+		},
+		"correctAnswer":"c",
+		"difficulty": "beginner"
+		},
+		{
+		"question":"The most prominent EEG wave pattern of an awake, relaxed adult whose eyes are closed is:",
+		"answers":{
+		"a":"Delta",
+		"b":"Theta",
+		"c":"Alpha",
+		"d":"Beta"
+		},
+		"correctAnswer":"c",
+		"difficulty": "beginner"
+		},
+		{
+		"question":"For a good EEG electrode impedance should be below:",
+		"answers":{
+		"a":"50K",
+		"b":"5K",
+		"c":"1K",
+		"d":"10K"
+		},
+		"correctAnswer":"b",
+		"difficulty": "beginner"
+		},
+		{
+		"question":"Loss of consciousness shows changes in …………:",
+		"answers":{
+		"a":"EMG Signal",
+		"b":"ECG Signal",
+		"c":"EEG Signal",
+		"d":"None of these"
+		},
+		"correctAnswer":"c",
+		"difficulty": "beginner"
+		},
+		{
+		"question":"Stage 2 sleep is defined by the presence of:",
+		"answers":{
+		"a":"spikes and slow waves",
+		"b":"sleep spindles and K complexes",
+		"c":"rapid eye movements",
+		"d":"1Hz to 2Hz delta frequencies"
+		},
+		"correctAnswer":"d",
+		"difficulty": "beginner"
+		}
   ]
 }
