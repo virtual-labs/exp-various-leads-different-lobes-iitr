@@ -485,7 +485,7 @@ if ( is_connected_1_10&&is_connected_2_11&&is_connected_4_13&&is_connected_5_14&
 
             document.getElementById("video").style.display = "block";
             document.getElementById("ACQ").style.display = "none";
-            document.getElementById("graph").disabled = false;
+           
 
 
 
