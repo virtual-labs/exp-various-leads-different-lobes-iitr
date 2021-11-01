@@ -347,7 +347,7 @@ document.getElementById("check-button").addEventListener("click", function () {
 
             document.getElementById("video").style.display = "block";
             document.getElementById("ACQ").style.display = "none";
-        
+            document.getElementById("graph").disabled = false;
 
 
 
