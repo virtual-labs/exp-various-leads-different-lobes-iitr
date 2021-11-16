@@ -1,0 +1,313 @@
+ #graph {
+                                        background-color: #4CAF50;
+                                        font-color:white;
+                                        font-size: 16px;
+                                        font-style: ;
+                                        color: white;
+                                        border-radius: 5px 5px 5px 5px ;
+                                        margin-top: 550px;
+                                        margin-left:320px;
+                                        height: 45px;
+                                        width: 100px;
+                                        
+                                        z-index:9999;
+                                       
+                                    }
+
+
+
+ #graph:hover {background-color: #3e8e41;}
+ #graph:hover,
+
+
+
+
+  }
+                                 #data {
+                                        border: solid 5px #FFFACD;
+                                        border-radius: 30px 0 30px 0;
+                                        background: #FFFACD;
+                                        font-size: 20px;
+                                        font-weight: bold;
+                                        height: 50px;
+                                        margin-top: 30px;
+                                        width: 300px;
+                                        cursor: pointer;
+                                        box-shadow: 0 0 20px black;
+                                    }
+                             
+                                    #dialog {
+                                        font-weight: bold;
+                                        font-size: medium;
+                                        cursor: pointer;
+                                    }
+                                    
+                                    #insdialog {
+                                        margin-left: 5px;
+                                        font-size: medium;
+                                        text-align: justify;
+                                        cursor: pointer;
+                                    }
+                                    
+                                    #insdialog:hover {
+                                        background: #FFF7E4;
+                                    }
+                                    
+                                   
+                                    /*dialog header */
+                                    
+                                    .custom.e-dialog .e-header {
+                                        background: #3895D3;
+                                        border-bottom: 3px solid whitesmoke;
+                                    }
+                                    /*dialog header title*/
+                                    
+                                    .custom.e-dialog .e-title {
+                                        color: whitesmoke;
+                                        font-size: large;
+                                        text-align: center;
+                                    }
+                                    
+                                    .custom.e-graphdialog .e-header {
+                                        background: #3895D3;
+                                        border-bottom: 3px solid whitesmoke;
+                                        text-align: center;
+                                    }
+                                    /*dialog header title*/
+                                    
+                                    .custom.e-graphdialog .e-title {
+                                        color: whitesmoke;
+                                        font-size: 100px;
+                                        text-align: center;
+                                        position: relative;
+                                    }
+                                    
+                                    .e-dialog .e-dialog-icon.e-close:before {
+                                        color: whitesmoke;
+                                    }
+                                    
+                                    .e-dialog .e-dialog-icon.e-maximize:before {
+                                        color: whitesmoke;
+                                    }
+                                    
+                                    .e-dialog .e-dialog-icon.e-minus:before {
+                                        color: whitesmoke;
+                                    }
+                                    /*custom styles for changing color of graphdialog buttons*/
+                                    
+                                    .egraphdialog .e-graphdialog-icon.e-close:before {
+                                        color: whitesmoke;
+                                    }
+                                    
+                                    .e-dialog .e-dialog-icon.e-maximize:before {
+                                        color: whitesmoke;
+                                    }
+                                    
+                                    .e-graphdialog .e-graphdialog-icon.e-minus:before {
+                                        color: whitesmoke;
+                                    }
+                                    
+                                    .custom.e-insdialog .e-title {
+                                        color: whitesmoke;
+                                        font-size: large;
+                                        text-align: center;
+                                        position: relative;
+                                    }
+
+                                  
+                             
+                                    #container3 {
+                                        height: 400px;
+                                        width: 1450px;
+                                        cursor: pointer;
+                                    }
+                                    #container2 {
+                                        height: 400px;
+                                        width: 1450px;
+                                        cursor: pointer;
+                                    }
+                               
+   #container2 {
+                                        height: 400px;
+                                        width: 1450px;
+                                        cursor: pointer;
+                                    }
+                               
+
+		.box{
+			  
+			width: 1580px;
+			height: 800px;
+			
+			border: 3px solid black;
+			background-color: rgb(214, 245, 245);
+      z-index: -100;
+		}
+		.container1{
+			
+			background-color: #0A1393;
+			border: 2px solid black;
+			width:100%;
+			height:120px;
+			color:white;
+		}
+    .disabled {
+    opacity: 0.5
+}
+.red
+		{
+			position: absolute;
+	    	margin-top: 0px;
+            margin-left: 2px;
+            z-index: -30;	
+		}
+
+.dropbtn {
+  background-color: #4CAF50; 
+  border: none;
+  color: white;
+  border-radius: 4px;
+  padding: 12px 24px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  height:40px;
+  width:160px; 
+  margin-left: 1200px;
+  margin-top: 183px;
+}
+.dropdown {
+  position: absolute;
+  display: inline-block;
+}
+.dropdown-content {
+  padding-left: 10px;
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 238px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  margin-left: 970px;
+  margin-top: 5px;
+  z-index:2;
+}
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+.dropdown-content a:hover {background-color: #ddd;}
+.dropdown:hover .dropdown-content {display: block;}
+.dropdown:hover .dropbtn {background-color: #3e8e41;
+}
+table { 
+  border: 1px solid black;
+  background-color: rgb(252, 252, 252);
+}
+th,td {
+  border: 1px solid black;
+  padding:1px ;
+   
+}
+table.a {
+  float: right;
+    table-layout: auto;
+    max-width: 1px;
+      
+}
+.content
+	    {
+	    	position: relative;
+	    	margin-top: 305px;
+            margin-left: 35px;
+            text-shadow: 0px 1px 0px #fff;
+            z-index: 2;
+	    }
+.exampleContainer
+		{
+			position: relative;
+			display: inline-block;
+			background-color: Black;
+			border-radius: 5px;
+            margin-left: 18px;
+            margin-right: 18px;
+		}
+.med-sevenSegArray5Slanted
+	    {
+	    	position: relative;
+	        height: 14px;
+	        width: 55px;
+	    }    
+.container6
+{
+ border: 1px solid black;
+ background-color: rgb(252, 252, 252);
+ padding:1px 12px 1px 12px;
+ margin-top:199px;
+ position:absolute;
+ margin-left:830px;
+ width:450px;
+}
+.container2{
+			width:1400px;
+			height:498px;
+			background-color:#fdf5e2;
+			margin-top:150px;
+      margin-left:70px;
+			border:5px solid black;	
+		   }
+.board{
+	 position: absolute;
+      top: 360px;
+      left: 462px;
+}
+
+
+.button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.text1{
+	        position: absolute;          
+            left: 625px;
+            color:white;
+            top:100px;
+}
+.text2{
+	position:absolute;
+	top:100px;
+	left:170px;
+	color:white;
+}
+.text3{
+	position:absolute;
+	left:400px;
+	color:white;
+	top:100px;
+}
+
+
+.copyright{
+  height:30px;
+  width:1582px;
+  border:2px solid black;
+  top:813px;
+  left:8px;
+  background-color: #0A1393;
+  color:white;  
+  z-index: -20;
+  }
+
+
+
+
+
+
+
+
+
