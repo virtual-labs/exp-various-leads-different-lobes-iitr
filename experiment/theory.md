@@ -91,7 +91,7 @@
 These features can be classified in multiple ways, with different methods being common depending on the field of application. Very common is to divide the EEG into free-running, evoked and hybrid components.</p>
 <br>
 <center><img src="images/Examples of EEG Waveform.png"  width="625" height="450"> <br>
-<b>Figure-8:&nbsp;Examples of EEG Waveforms (a) Free-running background EEG. (b) An interictal spike.</b></p> </center>
+<b>Figure-9:&nbsp;Examples of EEG Waveforms (a) Free-running background EEG. (b) An interictal spike.</b></p> </center>
 <br>
 <p align=justify>Free-running EEG is the brain activity that is present due to the normal operation of the brain. It is there, all of the time, as the brain is operating. This EEG is characterized by diving it into frequency bands, each given the name of a Greek letter:</p>
 <ul>
@@ -105,7 +105,7 @@ These features can be classified in multiple ways, with different methods being 
 <p align=justify>An increase or decrease in the power present in a particular band at any point in time is then an indicator of the user’s state. For example, when a user is restful and closes their eyes, a dominant alpha rhythm emerges at the back of the head over the occipital cortex. This is easily identified and is a common test used to check that the EEG is set up correctly. Alternatively, the process of falling asleep is associated with alpha activity being replaced by slower theta activity. Many applications of EEG are based, at least in part, upon the tracking of these frequency bands over time. Note that it is near universal to divide the EEG spectrum into these bands, but some EEG disciplines use slightly different frequency ranges as the split points. Care should be taken to adhere to the standard practice in the precise application area.</p>
 <br>
 <center><img src="images/EEG Channel broken down into frequency bands.png"  width="625" height="450"> <br>
-<b>Figure-8:&nbsp;EEG Channel broken down into frequency bands.</b></p> </center>
+<b>Figure-10:&nbsp;EEG Channel broken down into frequency bands.</b></p> </center>
 <br>
 <p align=justify>Within free-running EEG there are then a number of features that occur due to different brain states which will be of interest for different applications. For example, Fig.6 (b) shows an interictal spike, which is a characteristic feature of epilepsy and can be used to help locate the epileptic foci within the brain. Focusing on epilepsy, a number of similar features can be identified:</p>
 <ul>
@@ -129,12 +129,12 @@ These features can be classified in multiple ways, with different methods being 
 <p align=justify>Not all of the possible ERPs will be present in every experiment, and the range of choices available gives a great deal of freedom for investigating different uses of EEG as a tool for understanding the brain (the precise shape/timing of ERPs is modulated by the current brain state) and for making BCIs. Fig.10 shows an example of evoked responses produced during a face detection task where the user was shown a series of pictures for 1 s, followed by 1 s pauses, with the picture randomly selected to be a recognizable face or static noise. A number of evoked responses can be seen. Here P100, N170 and P300 responses are present.</p>
 <br>
 <center><img src="images/Averaged evoked responses with face presented and no face presented.png"  width="625" height="450"> <br>
-<b>Figure-8:&nbsp;Averaged evoked responses with face presented and no face presented.</b></p> </center>
+<b>Figure-11:&nbsp;Averaged evoked responses with face presented and no face presented.</b></p> </center>
 <br>
 <p align=justify>The last class of data, hybrid EEG, is between the above two cases. No direct stimuli are presented to the user, but they are asked to think of something or imagine performing an action. This can then result in known signal morphologies arising in the EEG. The best known such signal is associated with motor imagery: when a user is asked to imagine performing a hand movement, EEG activity at 8–12 and 18–26 Hz decreases over the motor cortex (around electrode positions C3 and C4), and there is an event-related desynchronization. This is illustrated in Fig.11 which shows the event-related desynchronization associated with imagined left and right hand movements on the different sides of the head. This and similar hybrid tasks form the basis of many BCIs.</p>
 <br>
 <center><img src="images/Event-related desynchronization associated with imagined left and right hand movements on different side of the head.png"  width="625" height="450"> <br>
-<b>Figure-8:&nbsp;Event-related desynchronization associated with imagined left and right hand movements on different side of the head.</b></p> </center>
+<b>Figure-12:&nbsp;Event-related desynchronization associated with imagined left and right hand movements on different side of the head.</b></p> </center>
 <br>
 
 ### MEASUREMENT OF EEG SIGNALS
@@ -155,7 +155,7 @@ These features can be classified in multiple ways, with different methods being 
 <li><p align=justify>&#8226; &nbsp; Each little area along this gyrus is related to a particular part of body. Area depends upon number of sensory nerves.</p></li></ul>
 <br>
 <center><img src="images/The cerebral cortex.png"  width="625" height="450"> <br>
-<b>Figure-8:&nbsp;The cerebral cortex.</b></p> </center>
+<b>Figure-13:&nbsp;The cerebral cortex.</b></p> </center>
 <br>
 
 ### RECORDING OF EEG SIGNAL AND PLACEMENT OF ELECTRODES
@@ -170,7 +170,7 @@ These features can be classified in multiple ways, with different methods being 
     <li>2.   Bipolar</li></ul>
 <br>
 <center><img src="images/Monopolar and bipolar.png"  width="625" height="450"> <br>
-<b>Figure-8:&nbsp;Method of connecting the recording channels for “Monopolar” and “Bipolar” recording.</b></p> </center>
+<b>Figure-14:&nbsp;Method of connecting the recording channels for “Monopolar” and “Bipolar” recording.</b></p> </center>
 <br>
 <li><p align=justify>&#8226; &nbsp; In EEG electrodes are placed in 10-20 electrode system (Fig.14):-
 <li>a.  They are designated on the basis of their location in particular lobe.</li>
@@ -184,7 +184,7 @@ These features can be classified in multiple ways, with different methods being 
 <li>Ear lobes: A1, A2 </p></li></ul>
 <br>
 <center><img src="images/10-20 Ssytem For EEG.png"  width="625" height="450"> <br>
-<b>Figure-8:&nbsp;The 10–20 electrode system recommended by the international federation of EEG scientists.</b></p> </center>
+<b>Figure-15:&nbsp;The 10–20 electrode system recommended by the international federation of EEG scientists.</b></p> </center>
 <br>
 
 ### BASIC SET UP
@@ -192,14 +192,14 @@ These features can be classified in multiple ways, with different methods being 
 <p align=justify>A pair of electrodes is required in order to obtain a voltage potential difference, and each pair of electrodes is thus connected to an amplifier. After suitable amplification and bandwidth limiting, the signals are stored in a suitable location. In older devices an analog signal was stored on a magnetic tape or written out by a pen writer. Modern devices digitize the signals allowing them to be stored, wirelessly transmitted or analyzed in real time as desired for the particular application.</p>
 <br>
 <center><img src="images/Front View of standard 10–20 electrode system for electrode placement and names.png"  width="625" height="450"> <br>
-<b>Figure-8:&nbsp;Front View of standard 10–20 electrode system for electrode placement and names.</b></p> </center>
+<b>Figure-16:&nbsp;Front View of standard 10–20 electrode system for electrode placement and names.</b></p> </center>
 <br>
 
 ### PRACTICAL SET UP
 <p align=justify>Although a wide range of choices are available when performing a modern EEG recording, the conventional set up that first comes to mind when discussing the EEG is shown in Fig. 11(a). This illustrates a user with a head cap on which has holes to hold a number of electrodes next to the scalp. Each electrode has a long wire which allows it to be connected to recording instrument. On each electrode a conductive gel is placed in order to ensure that a good contact is made between the metal of the electrode and the scalp, and a close-up view of this is shown in Fig.11 (b). In conventional EEG this gel is critical to getting a good electrical contact with the head, and it can act as a mechanical buffer to ensure that the connection is maintained even during and after head movements.</p>
 <br>
 <center><img src="images/(a) EEG set up with metal electrodes on the scalp (b) Electrode making contact with skin via gel.png"  width="625" height="450"> <br>
-<b>Figure-8:&nbsp;– (a) EEG set up with metal electrodes on the scalp (b) Electrode making contact with skin via gel.</b></p> </center>
+<b>Figure-17:&nbsp;– (a) EEG set up with metal electrodes on the scalp (b) Electrode making contact with skin via gel.</b></p> </center>
 <br>
 
 <br><br>
